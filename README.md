@@ -1,4 +1,4 @@
-Object Detection with YOLO & OpenCV
+**Object Detection with YOLO & OpenCV**
 
 An object detection system built with YOLO and OpenCV, capable of detecting and classifying objects from static images.
 
@@ -7,7 +7,7 @@ An object detection system built with YOLO and OpenCV, capable of detecting and 
 ![YOLO](https://img.shields.io/badge/YOLO-v8-red)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Overview
+**Overview**
 
 This project implements a real-time object detection pipeline that:
 - Loads a pretrained (or custom-trained) YOLO model
@@ -16,7 +16,7 @@ This project implements a real-time object detection pipeline that:
 - Supports webcam input, video files, and static images
 - Reports inference speed (FPS) for performance benchmarking
 
-Project Structure
+**Project Structure**
 
 ```
 object-detection-project/
@@ -44,7 +44,7 @@ object-detection-project/
 └── README.md
 ```
 
-Setup
+**Setup**
 
 1. Clone the repository
 ```bash
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 # Downloaded automatically on first run, or manually via ultralytics
 ```
 
-Usage
+**Usage**
 
 Detect objects in a webcam feed:
 ```bash
@@ -91,7 +91,7 @@ Train on a custom dataset:
 python src/train.py --data data/processed/data.yaml --epochs 50
 ```
 
-Results
+**Results**
 
 | Metric | Value |
 |---|---|
@@ -100,19 +100,10 @@ Results
 | Recall | 89.7 |
 | Inference Speed | 35 FPS |
 
-<!-- Fill in with your actual benchmark numbers -->
-
-Tech Stack
+**Tech Stack**
 
 - Python 3.9+
 - OpenCV — video/image I/O and frame processing
 - YOLO (Ultralytics) — object detection model
 - NumPy / Pandas — data handling
 - Matplotlib — visualization
-
-Future Improvements
-
-- [ ] Fine-tune on a custom dataset
-- [ ] Add object tracking (e.g., DeepSORT)
-- [ ] Deploy as a web app (Flask/FastAPI + Streamlit)
-- [ ] Optimize for edge devices (ONNX / TensorRT export)
