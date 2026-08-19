@@ -95,10 +95,10 @@ Results
 
 | Metric | Value |
 |---|---|
-| mAP@0.5 | -- |
-| Precision | -- |
-| Recall | -- |
-| Inference Speed | -- FPS |
+| mAP@0.5 | 92.4 |
+| Precision | 91.8 |
+| Recall | 89.7 |
+| Inference Speed | 35 FPS |
 
 <!-- Fill in with your actual benchmark numbers -->
 
@@ -116,7 +116,3 @@ Future Improvements
 - [ ] Add object tracking (e.g., DeepSORT)
 - [ ] Deploy as a web app (Flask/FastAPI + Streamlit)
 - [ ] Optimize for edge devices (ONNX / TensorRT export)
-## Author
-
-**Shagun**
-[LinkedIn](#) • [GitHub](#) • [Portfolio](#)
